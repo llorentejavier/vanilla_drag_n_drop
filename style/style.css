@@ -1,0 +1,67 @@
+.target {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #aaaaaa;
+    padding: 5px;
+  }
+
+  .box1 {
+    position: relative;
+    float: right;
+    top: 4.0em;
+    right: 14.0em;
+  }
+  
+  .box2 {
+    position: relative;
+    float: right;
+    top: 15.0em;
+    right: 4.0em;
+  }
+
+  .box3 {
+    position: relative;
+    float: right;
+    top: 14.0em;
+    right: 6.0em;
+  }
+
+  .element {
+    width: 35px;
+    height: 35px;
+  }
+
+  #container {
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    background-image: url("../img/ear.png");
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+  }
+
+  #selector #drag1 {
+    background-image: url("../img/example1.png");
+    background-size: 35px 35px;
+  }
+
+  #selector #drag2 {
+    background: blue;
+  }
+
+  #selector #drag3 {
+    background:green;
+  }
+
+  #container #drag1 {
+    background-image: url("../img/example2.png");
+    background-size: 35px 35px;
+  }
+
+  #container #drag2 {
+    background: purple;
+  }
+
+  #container #drag3 {
+    background:greenyellow;
+  }
